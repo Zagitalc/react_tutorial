@@ -3,14 +3,14 @@ function ListGroup() {
   //   items = [];
   //   const message = items.length === 0 ? <p>No item found</p> : null
 
-  const getMessage = () => {
-    return items.length === 0 ? <p>No item found</p> : null;
-  };
+  //   const getMessage = () => {
+  //     return items.length === 0 ? <p>No item found</p> : null;
+  //   };
   return (
     //fragment
     <>
       <h1>List</h1>
-      {getMessage(1)}
+      {/* {getMessage(1)} */}
       {/* {items.length === 0 ? <p>No item found</p> : null} */}
       {/* <ul ClassName="list-group">
         <li ClassName="list-group-item">An item</li>
